@@ -56,12 +56,13 @@ var LoaiKhachHang1 = 'NhaDan';
 var PhiXuLyHoaDon1 = 4.5;
 var PhiDichVuCoBan1 = 20.5;
 var ThueKenhCaoCap1 = 7.5;
+var SoKenhCaoCap1 = 2
 
 
 var TongHoaDon1 = '';
 
 
-  TongHoaDon1 = PhiXuLyHoaDon1 + PhiDichVuCoBan1 + ThueKenhCaoCap1;
+  TongHoaDon1 = PhiXuLyHoaDon1 + PhiDichVuCoBan1 + ThueKenhCaoCap1*SoKenhCaoCap1;
   console.log('MaKhachHang : ',MaKhachHang1,'| Loai Khach Hang:',LoaiKhachHang1,'|',' SoTienPhaiTra = ',TongHoaDon1);
 
 //Neu la doanh nghiep
@@ -70,16 +71,17 @@ var LoaiKhachHang = 'DoanhNghiep';
 var PhiXuLyHoaDon = 15;
 var PhiDichVuCoBan = 75;
 var ThueKenhCaoCap = 50;
+var SoKenhCaoCap = 2;
 var PhiDichVuCoBanKetNoiThem= '';
-var KetNoiThem = 12;
+var KetNoiThem = 11;
 var TongHoaDon = '';
 
 if(KetNoiThem <= 10){
-  TongHoaDon = PhiXuLyHoaDon + PhiDichVuCoBan + ThueKenhCaoCap;
+  TongHoaDon = PhiXuLyHoaDon + PhiDichVuCoBan + ThueKenhCaoCap*SoKenhCaoCap;
   console.log(TongHoaDon);
 }else if(KetNoiThem > 10){
   PhiDichVuCoBanKetNoiThem = 75 + (KetNoiThem - 10)*5;
-  TongHoaDon = PhiXuLyHoaDon + PhiDichVuCoBanKetNoiThem + ThueKenhCaoCap
+  TongHoaDon = PhiXuLyHoaDon + PhiDichVuCoBanKetNoiThem + ThueKenhCaoCap*SoKenhCaoCap
   console.log('MaKhachHang : ',MaKhachHang,'| Loai Khach Hang:',LoaiKhachHang,'|',' SoTienPhaiTra = ',TongHoaDon);
 }
 
