@@ -12,33 +12,33 @@
  * Output: Tinh va xuat tien Thue phai tra.
  */
 
-// function ex4() {
-//   var userName = "Quoc";
-//   var total = 41000000;
-//   var dependent = 2;
+function ex4() {
+  var userName = "Quoc";
+  var total = 41000000;
+  var dependent = 2;
 
-//   var income = total - 4000000 - dependent * 1600000;
-//   console.log(income);
-//   result = "";
+  var income = total - 4000000 - dependent * 1600000;
+  console.log(income);
+  result = "";
 
-//   if (income < 60000000) {
-//     result = income * (5 / 100);
-//   } else if (income > 60000000 && income < 120000000) {
-//     result = income * (10 / 100);
-//   } else if (income > 120000000 && income < 210000000) {
-//     result = income * (15 / 100);
-//   } else if (income > 210000000 && income < 384000000) {
-//     result = income * (20 / 100);
-//   } else if (income > 384000000 && income < 624000000) {
-//     result = income * (25 / 100);
-//   } else if (income > 624000000 && income < 960000000) {
-//     result = income * (30 / 100);
-//   } else if (income > 960000000) {
-//     result = income * (35 / 100);
-//   }
-//   console.log("Ten khach hang :", userName, ".So % thue phai dong =", result);
-// }
-// ex4();
+  if (income < 60000000) {
+    result = income * (5 / 100);
+  } else if (income > 60000000 && income < 120000000) {
+    result = income * (10 / 100);
+  } else if (income > 120000000 && income < 210000000) {
+    result = income * (15 / 100);
+  } else if (income > 210000000 && income < 384000000) {
+    result = income * (20 / 100);
+  } else if (income > 384000000 && income < 624000000) {
+    result = income * (25 / 100);
+  } else if (income > 624000000 && income < 960000000) {
+    result = income * (30 / 100);
+  } else if (income > 960000000) {
+    result = income * (35 / 100);
+  }
+  console.log("Ten khach hang :", userName, ".So % thue phai dong =", result);
+}
+ex4();
 
 /**
  * Bai tap nop: Tinh tien Cap
